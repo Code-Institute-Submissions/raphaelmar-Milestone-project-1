@@ -1,0 +1,7 @@
+.container {
+    color: #DFBB85;
+}
+.card > img:hover {
+    height: 300px;
+    weight: 400px;
+}
