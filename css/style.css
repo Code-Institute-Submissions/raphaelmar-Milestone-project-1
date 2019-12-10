@@ -2,19 +2,22 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.lead {
+    color:#444;
+}
 /* Containers */
 
 .container-wrapper {
     font-size: 30px;
     padding: Opx;
-    background-color: #FAECD7;
+    background-color: #FEF9E7;
     color: #53504B;
     
 }
 
 .container-wrapper--gallery {
     height: 60vh;
-    background-color: #635079;
+    background-color: #9c9a97;
     color: white;
 }
 
