@@ -93,18 +93,15 @@ body {
     font-weight: bold;
     margin-bottom: 30px;
     color: white;
+    font-size: 8VW; !important;
 }
 
 .jumbotron .lead {
-    color: #a7a7a7;
+    color: #4E4B4F;
     margin: 25px 0;
+    font-size: 4vw;
 }
 
-.jumbotron small {
-    font-size: 60%;
-    font-style: italic;
-    color: #d0d0d0;
-}
 
 /* Block dividers */
 
@@ -207,6 +204,7 @@ body {
     margin-top: 10px;
     color: #f05f40;
 }
+
 footer {
     background-color: #525252;
     color: #fafafa;

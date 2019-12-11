@@ -10,6 +10,42 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <style>
+    #gallery {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    .callout-container {
+    height: 80vh;
+    background: url('../images/montagne.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    }
+
+    .card:hover {
+        cursor: pointer;
+    
+    }
+    a {
+        text-decoration: none !important;
+        color: #3A3A3B;
+    }
+#black {
+        color: #0D0B0D;
+        font-size: 2vw;
+    }
+
+    </style>
+
 </head>
 
 <body>
@@ -21,9 +57,9 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Accueil</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="aquarelles.html">Aquarelles</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="aquarelles.html">Acryliques</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="acryliques.html">Acryliques</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -34,9 +70,9 @@
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1 class="jumbotron-header">Daniel Maringue</h1>
+                    <h1 class="jumbotron-header">Acryliques</h1>
                     <hr class="block-divider block-divider--orange">
-                    <p class="lead">Artiste peintre
+                    <p class="lead" id="black">Toutes les oeuvres sont disponibles sur commande
                     
                         <span class="d-inline d-sm-none"><br></span>
                         </p>
@@ -45,63 +81,89 @@
         </div>
         <!-- /.callout -->
     </div>
-    </div>
-  <div class="container">
+  <div id="gallery" class="container-fluid">
   <div class="row">
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-3">
     <div class="card">
-  <img src="images/clairiere.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
+    <a href="images/cheminetang.jpg"  target="_blank">
+  <img src="images/thumbnails/cheminetang-thumbnail.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
   <div class="card-body">
+  
     <p class="card-text text-center">Clairière</p>
   </div>
     </div>
     </div>
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-3">
     <div class="card">
-  <img src="images/ecologique.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
+    <a href="images/cieletnuages.jpg"  target="_blank">
+  <img src="images/thumbnails/cieletnuages-thumbnail.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text text-center">Écologique</p>
   </div>
     </div>
     </div>
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-3">
     <div class="card">
-  <img src="images/ledernierarbre.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
+    <a href="images/cieletplage.jpg"  target="_blank">
+  <img src="images/thumbnails/cieletplage-thumbnail.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text text-center">Le dernier arbre</p>
   </div>
     </div>
     </div>
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-3">
     <div class="card">
-  <img src="images/lecycledeleau.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
+    <a href="images/etoiles.jpg"  target="_blank">
+  <img src="images/thumbnails/etoiles-thumbnail.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text text-center">Le Cycle de l'eau</p>
   </div>
     </div>
     </div>
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-3">
     <div class="card">
-  <img src="images/lefondelariviere.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
+    <a href="images/falaise.jpg"  target="_blank">
+  <img src="images/thumbnails/falaise-thumbnail.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text text-center">Le fond de la rivière</p>
   </div>
     </div>
     </div>
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-3">
     <div class="card">
-  <img src="images/naturellement.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
+    <a href="images/glace.jpg"  target="_blank">
+  <img src="images/thumbnails/glace-thumbnail.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text text-center">Naturellement</p>
   </div>
     </div>
     </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+    <div class="card">
+    <a href="images/jauneetbleu.jpg"  target="_blank">
+  <img src="images/thumbnails/jauneetbleu-thumbnail.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text text-center">La guerre des pierres</p>
+  </div>
+    </div>
+    </div>
    
+   <div class="col-12 col-md-6 col-lg-3">
+    <div class="card">
+    <a href="images/orage.jpg"  target="_blank">
+  <img src="images/thumbnails/orage-thumbnail.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text text-center">La retenue</p>
+  </div>
+    </div>
+    </div>
+
   </div>
 </div>
 <footer class="container-fluid">
