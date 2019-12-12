@@ -10,14 +10,14 @@ body {
 .container-wrapper {
     font-size: 30px;
     padding: Opx;
-    background-color: #FEF9E7;
+    background-color: #fff;
     color: #53504B;
     
 }
 
 .container-wrapper--gallery {
     height: 60vh;
-    background-color: #9c9a97;
+    background-color: #fff;
     color: white;
 }
 
@@ -93,7 +93,7 @@ body {
     font-weight: bold;
     margin-bottom: 30px;
     color: white;
-    font-size: 8VW; !important;
+    font-size: 6VW; !important;
 }
 
 .jumbotron .lead {
@@ -124,133 +124,23 @@ body {
     width: 35px;
 }
 
-/* Buttons */
-
-.btn--cta {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
-}
-
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
-}
-
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
-}
-
-/* Alert */
-
-.alert-container .col-12 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.site-wide-alert {
-    color: #544600;
-    background-color: #eec802;
-    border-color: #eec802;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0;
-}
-
-/* Page Headers */
-
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.page-header h2 {
-    margin-top: 0;
-}
-
-/* Quotes */
-
-.quotes .page-header {
-    margin-bottom: 25px;
-}
-
-/* Features */
-
-.feature {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.feature i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
-}
-
-.feature .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40;
-}
-
 footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
+    background-color: rgba(0, 0, 0, .25);
+    padding-top: 20px;
+    color: #fff;
+    font-weight: bold;
 
-.cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
-
-.cv-pdf i:hover {
-    color: #e84610;
+.social {
+    font-size: 40px;
 }
-
-.social-links {
-    padding-bottom: 15px;
+h5 {
+    color: #444;
 }
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+.fa-download {
+    font-size: 40px;
 }
-
-.social-links li a i:hover {
-    background: #e84610;
-}
-
-#footer-details {
-    padding: 20px;
-}
+@media(max-width: 992px) {
+    .callout-container {
+        height: 70vh;
+        }
