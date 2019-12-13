@@ -10,44 +10,130 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://f;onts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
     
-    <style>
-
-    #gallery {
-        padding-top: 15px;
-        padding-bottom: 45px;
-       
-    }
+    <style>        
     
-    a {
-        text-decoration: none !important;
-        color: #3A3A3B;
-    }
-    .card-text {
-        font-weight: 700;
-        
-    }
-    .text-center {
-        text-align: justify;
-        color:#FFF;
-        
-    }
-    .card-text {
-        font-weight: 700;
-        color: black;
-        
-    }
-    #essence {
-        padding: 10px;
-        font-size: 3vw;
-        font-family: 'Dosis', sans-serif;
-    }
-    .title {
-        font-weight: bold;
-        
+footer {
+    background-color: rgba(0, 0, 0, .25) !important;
+    padding-top: 20px;
+    color: #fff; !important
+    font-weight: bold;
 
-    }
+
+}
+.social {
+    font-size: 40px;
+}
+h5 {
+    color: #fff;
+}
+.fa-download {
+    font-size: 40px;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.social-links li a i {
+    font-size: 40px; 
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #e46b43;
+}
+.fa-download:hover {
+    color: #e46b43;
+}
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25) !important;
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+body {
+  background-image: url("../images/pinceauxnb.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+
+}
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+
+}
+
+.history-items {
+    margin-bottom: 30px;
+
+}
+.atelier {
+  position: sticky;
+  width: 20vw;
+  border: 3px solid #fff;
+}
+.row {
+    padding: 10px;
+}
+#expositions {
+    font-family: 'Dosis', sans-serif;
+    
+}
 
     </style>
 </head>
@@ -70,70 +156,50 @@
                 </ul>
             </div>
         </nav>
-    </div>
-    <div class="container-fluid callout-container">
-   
-        <!-- Jumbotron -->
-        <div class="opaque-overlay">&nbsp;</div>
+  <section class="container-fluid" id="expositions">
         <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center">
-                    <h1 class="jumbotron-header">Daniel Maringue</h1>
-                    <p class="lead title"> Les Sens du Paysage
-                        </p>
-        
-            </div>
-        </div>
-
-       <!-- Text -->
-
-    </div>
-
-    <div class="container-wrapper">
-        <div class="content-container">
-            
+            <div class="col-md-4 bg-color-work-history section-column">
+                <div class="row">
                     <div class="col-12">
-                                    <p class="text-center" id="essence">Trouver l’essence du paysage pour y découvrir son sens, les sens en éveil.
-Le sens d’un paysage est dans son pouvoir de suggestion, d’évocation. Montrer sa beauté bien sûr, mais surtout sa fragilité, sa simplicité, son équilibre.
-L’eau, le feu, l’air et la terre composent la toile.
-Le silence devient alors le lien entre nature et peinture.
-La figuration jamais réaliste nous ouvre des chemins inexplorés.</p>
-                           
-                            </div>
-                        </div>
+                    <p><img src="../images/biopic.jpg" alt="atelier" class="atelier"></p>
+                        <h3 class="history-heading uppercase">
+                            Expositions
+                          </h3>
+                        
                     </div>
-            </section>
+                </div>
+                <div class="history-items">
+                    <div class="timeline-item" data-dates="1992">
+                        <h4>Omniprésence</h4>
+                        <p>La magie et la puissance de la pensée</p>
+                    </div>
+                    <div class="timeline-item" data-dates="1996">
+                        <h4>Les voyageurs immobiles</h4>
+                        <p>Le souvenir et la nostalgie des dures activités humaines et des espérances restées au port</p>
+                    </div>
+                    <div class="timeline-item" data-dates="1997-aujourd'hui">
+                        <h4>La Loire</h4>
+                        <p>L'enfance, les grands espaces de liberté, la langueur des eaux cruelles</p>
+                    </div>
+                    <div class="timeline-item" data-dates="1998">
+                        <h4>Les silences</h4>
+                        <p>La colère, la résistance à l'indifférence, à l'agitation médiatique</p>
+                    </div>
+                    <div class="timeline-item" data-dates="1999">
+                        <h4>L'Exode</h4>
+                        <p>La barbarie qui ressurgit depuis la préhistoire comme le fil rouge d'une triste condition humaine</p>
+                    </div>
+                    <div class="timeline-item" data-dates="2001">
+                        <h4>Flottements</h4>
+                        <p>Les pièges, les leurres, les illusions, les hantises du siècle nouveau</p>
+                    </div>
+                    <div class="timeline-item" data-dates="2002-2003">
+                        <h4>La rechute d'Icare</h4>
+                        <p>L'homme qui se brûle les ailes à vouloir aller au delà du possible, mystifié par tout ce qui brille</p>
+                    </div>
+                </div>
+            </div> 
 
-        </div>
-    </div>
-
-<!-- Gallery-->
-
-<div id="gallery" class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-6 col-lg-6">
-    <div class="card">
-    <a href="aquarelles.html">
-  <img src="images/thumbnails/aquarelles.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
-  <div class="card-body">
-  
-    <p class="card-text text-center">AQUARELLES</p>
-  </div>
-    </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-6">
-    <div class="card">
-    <a href="acryliques.html">
-  <img src="images/thumbnails/acryliques.jpg" class="img-fluid img-thumbnail card-img-top" alt="Responsive image" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text text-center">ACRYLIQUE</p></a>
-  </div>
-    </div>
-    </div>
-
-        </div>
-    </div>
 
     <!-- Footer -->
 
@@ -177,6 +243,7 @@ La figuration jamais réaliste nous ouvre des chemins inexplorés.</p>
                         <a target="_blank" href="#">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
+                            </a>
 
                     </li>
                 </ul>
