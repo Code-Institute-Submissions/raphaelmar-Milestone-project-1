@@ -8,72 +8,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link href="https://f;onts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     
     <style>        
-    
-footer {
-    background-color: rgba(0, 0, 0, .25) !important;
-    padding-top: 20px;
-    color: #fff; !important
-    font-weight: bold;
-
-
-}
-.social {
-    font-size: 40px;
-}
-h5 {
-    color: #fff;
-}
-.fa-download {
-    font-size: 40px;
-    color: #fff;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-.social-links li a i {
-    font-size: 40px; 
-    color: #fff;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    color: #e46b43;
-}
-.fa-download:hover {
-    color: #e46b43;
-}
-.navbar {
-    margin-bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .25) !important;
-    border: 0;
-}
-
-.navbar .navbar-toggler {
-    border: 0;
-}
-
-.navbar .navbar-brand {
-    font-weight: bold;
-}
-
-.navbar .navbar-nav a {
-    font-weight: bold;
-}
-body {
-  background-image: url("../images/pinceauxnb.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
-
+ 
 }
 .history-heading {
     color: #fafafa;
@@ -135,11 +75,31 @@ body {
     
 }
 form {
-    height: 80%;
-    width:50%;
+    height: 80vh;
+    width:50vw;
     position: relative;
+    left: 25%;
 }
+.form-control {
+    padding: 10px;
+}
+.contact-heading {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
+}
+h5 {
+    margin-bottom: 20px;
+
+}
+.btn-secondary:hover {
+    background-color: #e46b43;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
     </style>
 </head>
 
@@ -162,10 +122,11 @@ form {
             </div>
         </nav>
     
+     <!-- Form -->
                 <section class="container-fluid">
         <div class="row bg-color-contact">
             <div class="col">
-                <h3 class="contact-heading uppercase text-center">Une oeuvre vous intéresse?</h3>
+                <h3 class="contact-heading text-center">Une oeuvre vous intéresse?</h3>
                 <h5 class="uppercase text-center">Contactez-moi!</h5>
 
                 <div class="center-form">
@@ -203,6 +164,7 @@ form {
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">TÉLÉCHARGEMENT</h5>
                 <p class="inline-block">
+                <a href="../images/pdf/listedesprix.pdf" target="_blank"></a>
                    <p><i class="fas fa-download"></i></p>
                 <p>Liste des prix</p>
                 </p>

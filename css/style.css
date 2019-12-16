@@ -4,12 +4,22 @@ background-image: url("../images/pinceauxnb.jpg");
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
-  z-index: 2;
+ 
+}
+
+.card:hover {
+    background-color: #D2D2D2;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    
 }
 
 .lead {
     color:#444;
 }
+
 /* Containers */
 
 .container-wrapper {
@@ -72,7 +82,6 @@ background-image: url("../images/pinceauxnb.jpg");
 .navbar {
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .25);
     border: 0;
 }
 
@@ -110,7 +119,7 @@ background-image: url("../images/pinceauxnb.jpg");
 }
 
 
-/* Block dividers */
+/* Block divider*/
 
 .block-divider {
     width: 75px;
@@ -118,18 +127,7 @@ background-image: url("../images/pinceauxnb.jpg");
     border: 0;
     background-color: #444;
 }
-
-.block-divider--orange {
-    background-color: #3F3E34;
-}
-
-.block-divider--white {
-    background-color: white;
-}
-
-.block-divider--short {
-    width: 35px;
-}
+ /* Footer */
 
 footer {
     background-color: rgba(0, 0, 0, .25);
@@ -166,6 +164,7 @@ h5 {
 }
 .fa-download:hover {
     color: #e46b43;
+    cursor: pointer;
 }
 @media(max-width: 992px) {
     .callout-container {
