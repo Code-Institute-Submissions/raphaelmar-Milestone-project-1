@@ -4,6 +4,10 @@ background-image: url("../images/pinceauxnb.jpg");
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
  
 }
 
@@ -24,7 +28,7 @@ background-image: url("../images/pinceauxnb.jpg");
 
 .container-wrapper {
     font-size: 30px;
-    padding: Opx;
+    padding: 0px;
     background-color: transparent;
     color: #444;
     
@@ -44,11 +48,9 @@ background-image: url("../images/pinceauxnb.jpg");
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -58,7 +60,7 @@ background-image: url("../images/pinceauxnb.jpg");
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(247, 181, 142, 0.144);
 }
 
 .content-container {
@@ -109,7 +111,7 @@ background-image: url("../images/pinceauxnb.jpg");
     font-weight: bold;
     margin-bottom: 30px;
     color: white;
-    font-size: 6VW; !important;
+    font-size: 6VW;!important;
 }
 
 .jumbotron .lead {
