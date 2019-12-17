@@ -39,20 +39,20 @@ Wireframes for landing pages and galleries:
 
 <h2>Technologies and support used</h2>
 
-*GitHub
-*Balsamiq (wireframes)
-*GitPod (IDE)
-*HTML (structure)
-*CSS (style)
-*Bootstrap (navbar, grid structure, form)
-*Font Awesome (icons)
-*Google Fonts (Dosis)
-*W3schools (support for bits of code)
-*Slack and Stackoverflow (general technical support)
-*Freeformatter (code formatting)
-*CSS color code (colour picking)
-*Pixabay (copyright free images)
-*Nu HTML checker (code validation)
+* GitHub
+* Balsamiq (wireframes)
+* GitPod (IDE)
+* HTML (structure)
+* CSS (style)
+* Bootstrap (navbar, grid structure, form)
+* Font Awesome (icons)
+* Google Fonts (Dosis)
+* W3schools (support for bits of code)
+* Slack and Stackoverflow (general technical support)
+* Freeformatter (code formatting)
+* CSS color code (colour picking)
+* Pixabay (copyright free images)
+* Nu HTML checker (code validation)
 
 <h2>Testing and bugs</h2>
 
@@ -65,20 +65,20 @@ The main issue that I had was with the image display of the Jumbotron on Apple p
 I used GitPod as is works well in tandem with Git Hub and it's easy to go from one to the other. I installed the GitPod Chrome add-on, and was able to create the repository in Git Hub and work straightaway on my site in Git Pod. I then used the terminal (git add-commit-push) to commit my work to Git Hub.
 For the remote deployment in  Git Hub, I:
 
-*Selected the milestone-project-1 from my GitHub dashboard.
-*Selected 'Settings' from the menu bar.
-*Chose 'master branch' from the dropdown menu.
-*Link to website was created
+* Selected the milestone-project-1 from my GitHub dashboard.
+* Selected 'Settings' from the menu bar.
+* Chose 'master branch' from the dropdown menu.
+* Link to website was created
 
 https://raphaelmar.github.io/Milestone-project-1/
 
-*For deploying the site locally:
-*Go to main page of repository (Milestone-project-1)
-*Click clone or download
-*Copy the displayed url
-*Open terminal
-*Yype git clone
-*Paste url then press enter
+* For deploying the site locally:
+* Go to main page of repository (Milestone-project-1)
+* Click clone or download
+* Copy the displayed url
+* Open terminal
+* Type git clone
+* Paste url then press enter
 
 <h2>credits</h2>
 Background image from Pixmania, all other images used with the permission of Daniel Maringue
