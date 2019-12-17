@@ -1,214 +1,190 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-    <meta charset="utf-8">
-    <title>Daniel Maringue artiste peintre</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link href="https://f;onts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    
-    <style>        
-body {
-  background-image: url("../images/pinceauxnb.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
-
-}
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 30px;
-    margin-top:30px;
-}
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 15px;
-    content: '';
-    background: #fafafa;
-
-}
-
-.history-items {
-    margin-bottom: 30px;
-
-}
-.atelier {
-  position: sticky;
-  width: 20vw;
-  border: 3px solid #fff;
-}
-.row {
-    padding: 10px;
-}
-#expositions {
-    font-family: 'Dosis', sans-serif;
-    
-}
-
-    </style>
-</head>
-
-<body>
-
-<!-- Navbar -->
-        <nav class="navbar navbar-dark navbar-expand-sm">
-            <a href="index.html" class="navbar-brand">Daniel Maringue</a>
-
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
-
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item mr-2"><a class="nav-link" href="aquarelles.html">Aquarelles</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="acryliques.html">Acryliques</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="biographie.html">Expositions passées</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-  <section class="container-fluid" id="expositions">
-        <div class="row">
+   <head>
+      <meta charset="utf-8">
+      <title>Daniel Maringue artiste peintre</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <link href="https://f;onts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <style>        
+         body {
+         background-image: url("../images/pinceauxnb.jpg");
+         background-repeat: no-repeat;
+         background-position: right top;
+         background-attachment: fixed;
+         }
+         .history-heading {
+         color: #fafafa;
+         margin-bottom: 30px;
+         margin-top:30px;
+         }
+         .timeline-item {
+         padding: 4em 2em 0em 2em;
+         position: relative;
+         color: #fafafa;
+         border-left: 1px solid;
+         }
+         .timeline-item p {
+         padding: 0;
+         margin: 0;
+         }
+         .timeline-item:before {
+         content: attr(data-dates);
+         position: absolute;
+         left: 2.5em;
+         top: 3em;
+         display: block;
+         font-weight: 500;
+         font-size: 0.8em;
+         padding: 0;
+         margin: 0;
+         }
+         .timeline-item:after {
+         width: 12px;
+         height: 12px;
+         display: block;
+         top: 2.4em;
+         position: absolute;
+         left: -6px;
+         border-radius: 15px;
+         content: '';
+         background: #fafafa;
+         }
+         .history-items {
+         margin-bottom: 30px;
+         }
+         .atelier {
+         position: sticky;
+         width: 20vw;
+         border: 3px solid #fff;
+         }
+         .row {
+         padding: 10px;
+         }
+         #expositions {
+         font-family: 'Dosis', sans-serif;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-dark navbar-expand-sm">
+         <a href="index.html" class="navbar-brand">Daniel Maringue</a>
+         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item mr-2"><a class="nav-link" href="aquarelles.html">Aquarelles</a></li>
+               <li class="nav-item mr-2"><a class="nav-link" href="acryliques.html">Acryliques</a></li>
+               <li class="nav-item mr-2"><a class="nav-link" href="biographie.html">Expositions passées</a></li>
+               <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+         </div>
+      </nav>
+        <!-- timeline -->
+      <section class="container-fluid" id="expositions">
+         <div class="row">
             <div class="col-md-4 bg-color-work-history section-column">
-                <div class="row">
-                    <div class="col-12">
-                    <p><img src="../images/biopic.jpg" alt="atelier" class="atelier"></p>
-                        <h3 class="history-heading uppercase">
-                            Expositions
-                          </h3>
-                        
-                    </div>
-                </div>
-                <div class="history-items">
-                    <div class="timeline-item" data-dates="1992">
-                        <h4>Omniprésence</h4>
-                        <p>La magie et la puissance de la pensée</p>
-                    </div>
-                    <div class="timeline-item" data-dates="1996">
-                        <h4>Les voyageurs immobiles</h4>
-                        <p>Le souvenir et la nostalgie des dures activités humaines et des espérances restées au port</p>
-                    </div>
-                    <div class="timeline-item" data-dates="1997-aujourd'hui">
-                        <h4>La Loire</h4>
-                        <p>L'enfance, les grands espaces de liberté, la langueur des eaux cruelles</p>
-                    </div>
-                    <div class="timeline-item" data-dates="1998">
-                        <h4>Les silences</h4>
-                        <p>La colère, la résistance à l'indifférence, à l'agitation médiatique</p>
-                    </div>
-                    <div class="timeline-item" data-dates="1999">
-                        <h4>L'Exode</h4>
-                        <p>La barbarie qui ressurgit depuis la préhistoire comme le fil rouge d'une triste condition humaine</p>
-                    </div>
-                    <div class="timeline-item" data-dates="2001">
-                        <h4>Flottements</h4>
-                        <p>Les pièges, les leurres, les illusions, les hantises du siècle nouveau</p>
-                    </div>
-                    <div class="timeline-item" data-dates="2002-2003">
-                        <h4>La rechute d'Icare</h4>
-                        <p>L'homme qui se brûle les ailes à vouloir aller au delà du possible, mystifié par tout ce qui brille</p>
-                    </div>
-                    <div class="timeline-item" data-dates="2008-2012">
-                        <h4>Mémoire de Loire</h4>
-                        <p>Hommage au dernier fleuve sauvage de France</p>
-                    </div>
-                    <div class="timeline-item" data-dates="2012-aujourd'hui">
-                        <h4>Les sens du paysage et Attention! Paysage</h4>
-                        <p>Il n'y pas de chemin, le chemin se construit en peignant</p>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </section>
-
-    <!-- Footer -->
-
-<footer class="container-fluid">
-   <div class="row">  
-        <div class="col-sm-4">
-                <h5 class="uppercase general-sub">INFORMATIONS</h5>
-                <div class="inline-block">
-                <p> Daniel Maringue </p>
-                 <p>83 rue André Theuriet</p>
-                 <p>63000 Clermont-Ferrand, France</p>
-                 </div>
-            </div>
-            
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">TÉLÉCHARGEMENT</h5>
-                <div class="inline-block">
-                <a href="../images/pdf/listedesprix.pdf" target="_blank">
-                   <p><i class="fas fa-download"></i></p></a>
-                <p>Liste des prix</p>
-                </div>
-            </div>
-            
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">RÉSEAUX SOCIAUX</h5>
-                <p class="inline-block social">
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                   
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                            </a>
-
-                    </li>
-                </ul>         
+               <div class="row">
+                  <div class="col-12">
+                     <p><img src="../images/biopic.jpg" alt="atelier" class="atelier"></p>
+                     <h3 class="history-heading uppercase">
+                        Expositions
+                     </h3>
+                  </div>
+               </div>
+               <div class="history-items">
+                  <div class="timeline-item" data-dates="1992">
+                     <h4>Omniprésence</h4>
+                     <p>La magie et la puissance de la pensée</p>
+                  </div>
+                  <div class="timeline-item" data-dates="1996">
+                     <h4>Les voyageurs immobiles</h4>
+                     <p>Le souvenir et la nostalgie des dures activités humaines et des espérances restées au port</p>
+                  </div>
+                  <div class="timeline-item" data-dates="1997-aujourd'hui">
+                     <h4>La Loire</h4>
+                     <p>L'enfance, les grands espaces de liberté, la langueur des eaux cruelles</p>
+                  </div>
+                  <div class="timeline-item" data-dates="1998">
+                     <h4>Les silences</h4>
+                     <p>La colère, la résistance à l'indifférence, à l'agitation médiatique</p>
+                  </div>
+                  <div class="timeline-item" data-dates="1999">
+                     <h4>L'Exode</h4>
+                     <p>La barbarie qui ressurgit depuis la préhistoire comme le fil rouge d'une triste condition humaine</p>
+                  </div>
+                  <div class="timeline-item" data-dates="2001">
+                     <h4>Flottements</h4>
+                     <p>Les pièges, les leurres, les illusions, les hantises du siècle nouveau</p>
+                  </div>
+                  <div class="timeline-item" data-dates="2002-2003">
+                     <h4>La rechute d'Icare</h4>
+                     <p>L'homme qui se brûle les ailes à vouloir aller au delà du possible, mystifié par tout ce qui brille</p>
+                  </div>
+                  <div class="timeline-item" data-dates="2008-2012">
+                     <h4>Mémoire de Loire</h4>
+                     <p>Hommage au dernier fleuve sauvage de France</p>
+                  </div>
+                  <div class="timeline-item" data-dates="2012-aujourd'hui">
+                     <h4>Les sens du paysage et Attention! Paysage</h4>
+                     <p>Il n'y pas de chemin, le chemin se construit en peignant</p>
+                  </div>
+               </div>
             </div>
          </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
-
+      </section>
+      <!-- Footer -->
+      <footer class="container-fluid">
+         <div class="row">
+            <div class="col-sm-4">
+               <h5 class="uppercase general-sub">INFORMATIONS</h5>
+               <div class="inline-block">
+                  <p> Daniel Maringue </p>
+                  <p>83 rue André Theuriet</p>
+                  <p>63000 Clermont-Ferrand, France</p>
+               </div>
+            </div>
+            <div class="col-sm-4">
+               <h5 class="uppercase general-sub">TÉLÉCHARGEMENT</h5>
+               <div class="inline-block">
+                  <a href="../images/pdf/listedesprix.pdf" target="_blank">
+                     <p><i class="fas fa-download"></i></p>
+                  </a>
+                  <p>Liste des prix</p>
+               </div>
+            </div>
+            <div class="col-sm-4">
+               <h5 class="uppercase general-sub">RÉSEAUX SOCIAUX</h5>
+               <p class="inline-block social">
+               <ul class="list-inline social-links">
+                  <li class="list-inline-item">
+                     <a target="_blank" href="#">
+                     <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                     <span class="sr-only">Facebook</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="#">
+                     <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                     <span class="sr-only">Twitter</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="#">
+                     <i class="fab fa-instagram" aria-hidden="true"></i>
+                     <span class="sr-only">Instagram</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   </body>
 </html>
