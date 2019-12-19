@@ -29,13 +29,13 @@ Allows the user to send an email to the painter if they are interested in some o
 
 Wireframes for landing pages and galleries:
 
-<img src="landingpagelg.png">
+![Landing page large screen](/workspace/Milestone-project-1/images/wireframes/landingpagelg.png)
 
-<img src="landingpagemobile.png">
+<img src="images/wireframes/landingpagemobile.png">
 
-<img src="gallerylg.png">
+<img src="images/wireframes/gallerylg.png">
 
-<img src="gallerymobile.png">
+<img src="images/wireframes/gallerymobile.png">
 
 <h2>Technologies and support used</h2>
 
