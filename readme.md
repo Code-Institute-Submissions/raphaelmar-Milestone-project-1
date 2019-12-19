@@ -29,7 +29,7 @@ Allows the user to send an email to the painter if they are interested in some o
 
 Wireframes for landing pages and galleries:
 
-![Landing page large screen](/workspace/Milestone-project-1/images/wireframes/landingpagelg.png)
+<img src="images/wireframes/landingpagelg.png">
 
 <img src="images/wireframes/landingpagemobile.png">
 
