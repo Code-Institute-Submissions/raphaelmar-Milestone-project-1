@@ -114,7 +114,7 @@ background-image: url("../images/pinceauxnb.jpg");
     font-weight: bold;
     margin-bottom: 30px;
     color: white;
-    font-size: 6VW;!important;
+    font-size: 6VW !important;
 }
 
 .jumbotron .lead {
@@ -174,4 +174,5 @@ h5 {
 @media(max-width: 992px) {
     .callout-container {
         height: 70vh;
-        }
+    }
+}
