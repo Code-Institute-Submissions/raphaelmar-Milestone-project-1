@@ -21,6 +21,7 @@ The footer provides some basic information, a downloadable item (a price list, i
 The user returns to the familiar structure that he experienced on the landing page, but this time is presented with two colourful galleries of acrylics and watercolours.
 
 *The past exhibition page*
+
 Allows the user to have an overview of the artist's career as they scroll down the timeline.
 
 *The contact page*
@@ -52,17 +53,17 @@ Wireframes for landing pages and galleries:
 * Freeformatter (code formatting)
 * CSS color code (colour picking)
 * Pixabay (copyright free images)
-* Nu HTML checker (code validation)
+* Nu HTML checker and Jigsaw CSS validator (code validation)
 
 <h2>Testing and bugs</h2>
 
 I have tested the site on a variety of devices (Android and Apple phones, Ipad, Laptops) as well as various browsers (Safari, Chrome, Firefox), I have asked various users to test the site, using the github link.
-The site works and looks fairly consistently accross the board. 
-The main issue that I had was with the image display of the Jumbotron on Apple phones and tablets, which seem to interpret the CSS "cover" differently to other devices.
+The site works and looks fairly consistently across the board. 
+The main issue that I had was with the image display of the Jumbotron on Apple phones and tablets, as the CSS "cover" seems to ne interpreted slightly differently to other devices. Although not esthetically pleasing, it does not impair the functionality of the site.
 
 <h2>Deployment</h2>
 
-I used GitPod as æy IDE, it works well in tandem with Git Hub and it's easy to go from one to the other. I installed the GitPod Chrome add-on, and was able to create the repository in Git Hub and work straightaway on my site in Git Pod. I then used the terminal (git add-commit-push) to commit my work to Git Hub.
+I used GitPod as my IDE, it works well in tandem with Git Hub and it's easy to go from one to the other. I installed the GitPod Chrome add-on, and was able to create the repository in Git Hub and work straightaway on my site in Git Pod. I then used the terminal (git add-commit-push) to commit my work to Git Hub.
 For the remote deployment in  Git Hub, I:
 
 * Selected the milestone-project-1 from my GitHub dashboard.
@@ -81,11 +82,11 @@ https://raphaelmar.github.io/Milestone-project-1/
 * Paste url then press enter
 
 <h2>credits</h2>
-Background image from Pixmania, all other images used with the permission of Daniel Maringue
-All text and information provided with the permission of Daniel Maringue
+Background image from Pixmania, all other images used with the permission of Daniel Maringue.
+All text and information provided with the permission of Daniel Maringue.
 
 <h2>Copied code</h2>
-Some code reused and adapted from previous lessons in the course (Whiskey project and resume project).
+Some code reused and adapted from previous lessons in the Code Institute's Full Stack Web Developer course (Whiskey project and Resume project).
 Bootstrap documentation and W3schools.
 
 Acknowledgements
