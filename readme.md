@@ -81,7 +81,7 @@ https://raphaelmar.github.io/Milestone-project-1/
 * Type git clone
 * Paste url then press enter
 
-<h2>credits</h2>
+<h2>Credits</h2>
 Background image from Pixmania, all other images used with the permission of Daniel Maringue.
 All text and information provided with the permission of Daniel Maringue.
 
@@ -90,5 +90,5 @@ Some code reused and adapted from previous lessons in the Code Institute's Full 
 Bootstrap documentation and W3schools.
 
 Acknowledgements
-*To my mentor Reuben Ferrante for his time and help.
-*To the Code Institute support team for their regular phone calls to keep me on track.
+* To my mentor Reuben Ferrante for his time and help.
+* To the Code Institute support team for their regular phone calls to keep me on track.
